@@ -8,7 +8,7 @@
  */
 
 /**
- * 
+ * Paso1:Crearelarraydeplanetas.
  */
 
 /**
