@@ -9,7 +9,7 @@
  */
 /**
  * Paso1:Crearlosarraysdeplanetas.
- * se tienes dos sistemas solares ficticios: $sistemaSolar1 y $sistemaSolar1
+ * se tienen dos sistemas solares ficticios: $sistemaSolar1 y $sistemaSolar1
  */
 $sistemaSolar1 = array(
     "Mercurio",
@@ -63,13 +63,6 @@ echo "<pre>";
 var_dump($diferencia2);
 echo "</pre>";
 
-/**
- * 
- */
-
-/**
- * 
- */
 ?>
 <!DOCTYPE html>
 <html lang="en">
