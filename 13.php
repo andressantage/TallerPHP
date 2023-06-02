@@ -34,28 +34,6 @@ echo "Array de planetas invertido:<br>";
 echo "<pre>";
 var_dump($reversedArray); 
 echo "</pre>";
-/**
- * 
- */
-
-/**
- * 
- */
-
-/**
- * 
- */
-/**
- * 
- */
-
-/**
- * 
- */
-
-/**
- * 
- */
 
 ?>
 <!DOCTYPE html>
