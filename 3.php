@@ -1,6 +1,10 @@
 <?php
 /**
- * 
+ * 3)
+ * Supongamos que tienes un array asociativo que representa
+ *varios planetas en nuestro universo. Las claves son los
+ *nombres de los planetas y los valores son booleanos que
+ *representansiunplanetaeshabitable(true)ono(false).
  */
 
 /**
