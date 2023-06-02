@@ -1,79 +1,3 @@
-<?php
-    /**
-     * 1)
-     * magina que tienesun array que representa los planetas en
-     *nuestro sistema solar. Las claves son los nombres de los
-     *planetas y los valores son sus respectivos números de
-     *orden,empezandodesdeel sol.
-     */
-    /**
-     * Paso 1: Crear el array deplanetas
-     * se crea el array $intercambioSolar el cual se intercambian las llaves por las claves
-     */
-    $sistemaSolar = array(
-        "Sol" => 1,
-        "Mercurio" => 2,
-        "Venus" => 3,
-        "Tierra" => 4,
-        "Marte" => 5,
-        "Júpiter" => 6,
-        "Saturno" => 7,
-        "Urano" => 8,
-        "Neptuno" => 9,
-        "Plutón" => 10
-    );
-    $intercambioSolar=array_flip($sistemaSolar);
-    /**
-     * Busco el valor de la clave 3
-     */
-    echo "<pre>";
-    var_dump($intercambioSolar[3]);
-    echo "</pre>";
-    /**
-     * Paso 2: Buscar el nombre de un planeta por su número de orden Ejemplo‘Marte’
-     */
-    echo "<pre>";
-    var_dump($intercambioSolar["5"]);
-    echo "</pre>";
-
-    /**
-     * 2)
-     * Supongamos que estás creando un juego de simulación
-     *espacial y necesitas crear un sistema solar básico. Decides
-     *que cada sistema solar en tu juego debe tener un cierto
-     *númerodeplanetascuandosecrea.
-     */
-    $
-    /**
-     * Paso 1: Decidir cuántos planetas tendrá el sistemasolar
-     */
-    $sistemaSolar = array(
-        "Sol" => 1,
-        "Mercurio" => 2,
-        "Venus" => 3,
-        "Tierra" => 4,
-        "Marte" => 5,
-        "Júpiter" => 6,
-        "Saturno" => 7,
-        "Urano" => 8,
-        "Neptuno" => 9,
-        "Plutón" => 10
-    );
-    $intercambioSolar=array_flip($sistemaSolar);
-    /**
-     * Busco el valor de la clave 3
-     */
-    echo "<pre>";
-    var_dump($intercambioSolar[3]);
-    echo "</pre>";
-    /**
-     * Paso 2: Buscar el nombre de un planeta por su número de orden Ejemplo‘Marte’
-     */
-    echo "<pre>";
-    var_dump($intercambioSolar["5"]);
-    echo "</pre>";
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,47 +8,63 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
         body {
-            background-image: url("https://www.semana.com/resizer/FoMQoVccuVtUBm3VjyI1Rsnx8uM=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/ZYCBBET2KFGI3GQERGAFAJJOIY.jpg");
+            /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-LnoUAIxIqW145Tor3erotc580AJATfadvw&usqp=CAU");
             background-repeat: no-repeat;
-            background-size: cover;
-            color: white;
+            background-size: cover; */
+            background: black;
+            color: black;
             font-weight: bold;
-            font-size: 18px;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
+        }
+        h1{
+
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        .cuadro{
+            background-color: white;
+            padding-right: 2rem;
+            padding-left: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-radius: 1rem;
+        }
+        a{
+            margin: 0.2rem;
+            font-size: 2rem !important;
+            color: black !important;
         }
     </style>
 </head>
 <body>
 
-<form action="2.php">
-<div class="container d-flex justify-content-center align-items-center">
-    <div class="card border-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header text-dark"><h5 class="card-title"></h5></div>
-        <div class="card-body text-primary">
-            <!-- <p class="card-text"> -->
-                <div class="form-group">
-                    <label for="planetas">Cantidad del planetas para el sistema solar:</label>
-                    <input type="text" class="form-control" name="planetas" placeholder="Ingresa planetas">
-                </div>
-                <!-- <div class="form-group">
-                    <label for="correo">Correo:</label>
-                    <input type="email" class="form-control" name="correo" id="correo" placeholder="Ingresa tu correo">
-                </div> -->
-               <!--  <div class="form-group">
-                    <label for="password">Contraseña:</label>
-                    <input type="password" class="form-control" name="password" id="contra" placeholder="Ingresa tu contraseña">
-                </div> -->
-                <div class="d-flex justify-content-center align-items-center flex-column">
-                    <input type="submit" class="btn btn-primary" value="Enviar">
-                </div>
-            <!-- </p> -->
-        </div>
-    </div>
+<div class="cuadro">
+
+<h1>Taller incial de PHP: Sistema solar</h1>
+
+<div class="container d-flex justify-content-center align-items-center flex-column"  style="max-width: 18rem;">
+    <a href="1.php" class="btn btn-success">Punto 1</a>
+    <a href="2.php" class="btn btn-success">Punto 2</a>
+    <a href="3.php" class="btn btn-success">Punto 3</a>
+    <a href="4.php" class="btn btn-success">Punto 4</a>
+    <a href="5.php" class="btn btn-success">Punto 5</a>
+    <a href="6.php" class="btn btn-success">Punto 6</a>
+    <a href="7.php" class="btn btn-success">Punto 7</a>
+    <a href="8.php" class="btn btn-success">Punto 8</a>
+    <a href="9.php" class="btn btn-success">Punto 9</a>
+    <a href="10.php" class="btn btn-success">Punto 10</a>
+    <a href="11.php" class="btn btn-success">Punto 11</a>
+    <a href="12.php" class="btn btn-success">Punto 12</a>
+    <a href="13.php" class="btn btn-success">Punto 13</a>
 </div>
-</form>
+
+</div>
+
+
  
 </body>
 </html>

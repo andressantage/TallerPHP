@@ -1,8 +1,5 @@
 <?php
-/*     session_start();
-    $Deshabitado=$_POST["planetas"];
-    $_SESSION['Deshabitado'] = $Deshabitado; */
-        /**
+    /**
      * 1)
      * magina que tienesun array que representa los planetas en
      *nuestro sistema solar. Las claves son los nombres de los
@@ -38,6 +35,7 @@
     echo "<pre>";
     var_dump($intercambioSolar["5"]);
     echo "</pre>";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
