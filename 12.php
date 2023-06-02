@@ -21,20 +21,7 @@ echo "Satelites de Venus:<br>";
 foreach($satelitesVenus as $clave => $valor){ 
     echo "Numero del satelite: ".$clave.", Nombre del satelite: ".$valor."<br>";
 }
-/**
- * 
- */
-/**
- * 
- */
 
-/**
- * 
- */
-
-/**
- * 
- */
 ?>
 <!DOCTYPE html>
 <html lang="en">
