@@ -22,16 +22,23 @@
         "Neptuno" => 9,
         "Plutón" => 10
     );
+    echo "Array de planetas y sol en orden:<br>";
+    echo "<pre>";
+    var_dump($sistemaSolar); 
+    echo "</pre>";
+
     $intercambioSolar=array_flip($sistemaSolar);
     /**
      * Busco el valor de la clave 3
      */
+    echo "Se buscara el nombre del planeta con el orden numero 3:<br>";
     echo "<pre>";
     var_dump($intercambioSolar[3]);
     echo "</pre>";
     /**
      * Paso 2: Buscar el nombre de un planeta por su número de orden Ejemplo‘Marte’
      */
+    echo "Se buscara el orden del planeta Marte:<br>";
     echo "<pre>";
     var_dump($intercambioSolar["5"]);
     echo "</pre>";
